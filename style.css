@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: 'Bruno Ace', cursive;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background: rgb(108, 117, 125);
+  background: linear-gradient(36deg, rgba(108, 117, 125, 1) 0%, rgba(73, 80, 87, 1) 67%, rgba(52, 58, 64, 1) 100%);
+}
+
+.title {
+  text-align: end;
+  padding: 0.5% 2%;
+  color: antiquewhite;
+}
+.container {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: antiquewhite;
+}
+.main {
+  border: 1px solid violet;
+  padding: 8% 2%;
+  width: 30%;
+  background: rgba(255, 214, 214, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(250, 178, 178, 0.3);
+  transition: 0.5s;
+}
+.main:hover {
+  background: rgba(255, 255, 255, 0.34);
+}
+
+.inputAge {
+  margin-bottom: 10%;
+  display: flex;
+  justify-content: space-around;
+}
+.btnsDiv {
+  display: flex;
+  justify-content: space-around;
+}
+
+.ageRes {
+  line-height: 1.5;
+}
+
+.btn,
+#bday {
+  padding: 3% 6%;
+  border: none;
+  border-bottom-left-radius: 18px;
+  border-top-right-radius: 18px;
+  transition: 0.3s;
+}
+
+.btn:hover,
+#bday:hover {
+  cursor: pointer;
+  background-color: rgb(224, 224, 219);
+}
+
+/* footer */
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+.icon {
+  font-size: 3rem;
+  color: wheat;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+.icon:hover {
+  transform: scale(1.4);
+  opacity: 1;
+}
+.sign {
+  font-family: 'Orbitron', sans-serif;
+}
