@@ -99,6 +99,12 @@ body {
     width: 95%;
     height: 60vh;
   }
+  .ageRes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 76%;
+  }
   .icon {
     font-size: 2rem;
   }
